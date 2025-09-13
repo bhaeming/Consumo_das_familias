@@ -22,7 +22,4 @@ consumo_familias
 
 bc_br= sgs.get({'ibc_br' : '24363'},
                start = '2000-03-31')
-
-bc_br= sgs.get({'ibc_br' : '24363'},
-               start = '2000-03-31')
 bc_br
