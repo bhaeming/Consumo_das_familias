@@ -8,6 +8,7 @@ import numpy as np
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
+
 consumo_familias=sidra.get_table(
     table_code = "1620",
     territorial_level = "1",
@@ -20,6 +21,11 @@ consumo_familias=sidra.get_table(
 consumo_familias
 
 
+
 bc_br= sgs.get({'ibc_br' : '24363'},
                start = '2000-03-31')
 bc_br
+
+saldo_cred_pf = sgs.get({'crédito_pf' : '20541'},
+               start = '2000-03-31')
+saldo_cred_pf
