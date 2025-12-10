@@ -1,3 +1,8 @@
+#### Arquivo em .py dedicado a coleta de dados e pré-tratamento
+
+
+
+
 import pandas as pd
 import numpy as np
 import sidrapy as sd
